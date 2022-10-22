@@ -17,7 +17,7 @@ public class While {
                 int y = console.nextInt();
             }
 
-            
+
         }
     }
 
