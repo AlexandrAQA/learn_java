@@ -17,8 +17,7 @@ public class While {
                 int y = console.nextInt();
             }
 
-            //Программа будет вводить строки с клавиатуры,
-        //пока не будет введена строка STOP.
+            //printing user's string while user STOP is printed.
         Scanner sc = new Scanner(System.in);
         boolean isExit = false;
         while (!isExit)
@@ -27,6 +26,21 @@ public class While {
         isExit = str.equals("STOP");
 
         }
+
+        int  n = 0;
+        while (n < 4)
+        {
+            System.out.println("Java");
+            n++;
+        }
+        int in = 10;
+        while (n > 7){
+            System.out.println(in * 10);
+            in--;
+        }
+
+
+
     }
 }
 
