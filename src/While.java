@@ -17,7 +17,17 @@ public class While {
                 int y = console.nextInt();
             }
 
+            //Программа будет вводить строки с клавиатуры,
+        //пока не будет введена строка STOP.
+
+        Scanner sc = new Scanner(System.in);
+        boolean isExit = false;
+        while (!isExit)
+        {
+        String str = sc.nextLine();
+        isExit = str.equals("STOP");
 
         }
     }
+}
 
