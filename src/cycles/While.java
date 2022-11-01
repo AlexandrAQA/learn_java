@@ -13,6 +13,7 @@ public class While {
         }
 
         //while user print only numbers the cycle is running
+        System.out.println("Print few Integers and then print String");
             Scanner console = new Scanner(System.in);
             while(console.hasNextInt())
             {
@@ -20,6 +21,7 @@ public class While {
             }
 
             //printing user's string while user STOP is printed.
+        System.out.println("Print few Strings and then print STOP");
         Scanner sc = new Scanner(System.in);
         boolean isExit = false;
         while (!isExit)
@@ -35,13 +37,16 @@ public class While {
             System.out.println("Java");
             n++;
         }
-        int in = 10;
-        while (n > 7){
-            System.out.println(in * 10);
-            in--;
+        System.out.println("====================================================");
+        System.out.println("====================================================");
+
+        int j = 20;
+        int m = 100;
+        while (j < m){
+            j*=2;
+            System.out.println("j = " + j);
+
         }
-
-
 
     }
 }

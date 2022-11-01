@@ -1,4 +1,4 @@
-package smt;
+package smt.start;
 
 public class Math_ {
     public static void main(String[] args) {
