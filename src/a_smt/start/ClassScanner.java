@@ -1,4 +1,4 @@
-package smt.start;
+package a_smt.start;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package smt.start;
+package a_smt.start;
 
 public class javaTypes {
     public static void main(String[] args) {
