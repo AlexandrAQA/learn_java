@@ -18,7 +18,15 @@ public class ClassScanner {
             System.out.println("String str = " + str);
 
         }
+        //sc.close();
 
+        //Your rate per an hour
+        System.out.println("Enter your salary:");
+        double salary = sc.nextDouble();
+        System.out.println("Enter number of working hours:");
+        double hours = sc.nextDouble();
+        double hourRate = salary/hours;
+        System.out.println("Your hour rate is " + hourRate);
         sc.close(); // we have to close Scanner!!!
 
     }
