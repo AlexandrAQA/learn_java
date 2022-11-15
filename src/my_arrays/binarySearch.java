@@ -17,8 +17,11 @@ public class binarySearch {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number for searching in array: ");
         int elem = scanner.nextInt();
-        //#5 binary search
+        //#5 our binary search
         myBinarySearch(array, elem);
+        // or  we can use default Arrays.binarySearch, but it does not have
+        // such amazing printed result on console =)
+        //System.out.println(Arrays.binarySearch(array, elem));
 
 
     }
