@@ -1,4 +1,4 @@
-package my_arrays;
+package SortingTypes;
 
 import java.util.Arrays;
 import java.util.Scanner;
