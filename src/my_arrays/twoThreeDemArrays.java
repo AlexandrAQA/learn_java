@@ -3,11 +3,11 @@ package my_arrays;
 public class twoThreeDemArrays {
     public static void main(String[] args) {
         int[][] array = new int[5][];
-        array[0] = new int[]{1, 2, 3};
-        array[1] = new int[]{2120, 20, 230, 33, 222};
-        array[2] = new int[]{300, 33, 3230};
-        array[3] = new int[]{4444, 44};
-        array[4] = new int[]{5, 55, 555, 55555, 555555};
+        array[0] = new int[]{1};
+        array[1] = new int[]{20, 23};
+        array[2] = new int[]{3, 33, 3230};
+        array[3] = new int[]{4, 44, 444, 4444};
+        array[4] = new int[]{5, 55, 555, 5555, 55555};
 
         printTwoArray(array);
 
