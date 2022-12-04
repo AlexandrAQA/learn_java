@@ -1,27 +1,33 @@
 package BeginOOP.StartOOP.GuessGame;
 
 public class GuessGame {
+    //3 variables for players
     Player player1;
     Player player2;
     Player player3;
 
-    public  void startGame(){
+    //Creating 3 players Objects (real Gamers)
+    public void startGame() {
         player1 = new Player();
         player2 = new Player();
         player3 = new Player();
 
+        // players' answers
         int guessPlayer1;
         int guessPlayer2;
         int guessPlayer3;
 
+        //is Player guess variables
         boolean isPlayer1_Right = false;
         boolean isPlayer2_Right = false;
         boolean isPlayer3_Right = false;
 
+        // the NUMBER
         int targetNumber = (int) (Math.random() * 10);
         System.out.println("The target number is from 0 to 9... ");
 
-        while (true){
+        //cycle while where players try to guess the number
+        while (true) {
             System.out.println("the target number is " + targetNumber);
 
             player1.guess();
@@ -35,16 +41,16 @@ public class GuessGame {
             guessPlayer3 = player3.number;
             System.out.println("Player 1: " + guessPlayer3);
 
-            if(guessPlayer1 == targetNumber){
+            if (guessPlayer1 == targetNumber) {
                 isPlayer1_Right = true;
             }
-            if(guessPlayer2 == targetNumber){
+            if (guessPlayer2 == targetNumber) {
                 isPlayer2_Right = true;
             }
-            if(guessPlayer3 == targetNumber){
+            if (guessPlayer3 == targetNumber) {
                 isPlayer3_Right = true;
             }
-            if (isPlayer1_Right || isPlayer2_Right || isPlayer3_Right){
+            if (isPlayer1_Right || isPlayer2_Right || isPlayer3_Right) {
                 System.out.println("We have the winner!!!");
                 System.out.println("Is the First Player the winner? " + isPlayer1_Right);
                 System.out.println("Is the Second Player the winner? " + isPlayer2_Right);
