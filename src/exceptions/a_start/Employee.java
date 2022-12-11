@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.a_start;
 
 public class Employee {
 
