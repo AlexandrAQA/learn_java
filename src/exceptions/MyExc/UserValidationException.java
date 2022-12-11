@@ -1,10 +1,10 @@
 package exceptions.MyExc;
 
-public class UservalidationException extends  RuntimeException{
+public class UserValidationException extends  RuntimeException{
 
     private User user;
 
-    public UservalidationException(User user, String message) {
+    public UserValidationException(User user, String message) {
         super(message);
         this.user = user;
     }
