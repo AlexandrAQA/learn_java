@@ -17,18 +17,18 @@ public class MainLineReader {
         String str2 = lnr.readLine();
 
        while ( str2 != null){
-            str2 = lnr2.readLine();
             System.out.println(str2);
+            str2 = lnr2.readLine();
         }
 
         lnr.close(); //we must close each stream
         lnr2.close(); //we must close each stream
 
-        PrintWriter printWriter = new PrintWriter(new FileOutputStream("C://test/testFile4.txt"));
+        PrintWriter printWriter = new PrintWriter(new FileWriter(new File("C://test/testFile4.txt")));
         printWriter.println("First string");
         printWriter.println("Some TEST string");
 
-        printWriter.close();
+        printWriter.close();//we must close each stream
 
     }
 }
