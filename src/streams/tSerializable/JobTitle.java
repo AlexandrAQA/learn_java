@@ -1,4 +1,4 @@
-package tSerializable;
+package streams.tSerializable;
 
 public class JobTitle {
     private String jobTitle;

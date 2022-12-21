@@ -1,4 +1,4 @@
-package collections;
+package tSetCollections;
 
 public class DBStore {
         String[] text = new String[10];

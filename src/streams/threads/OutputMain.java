@@ -1,8 +1,5 @@
-package threads;
+package streams.threads;
 
-import org.omg.CORBA.portable.OutputStream;
-
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 

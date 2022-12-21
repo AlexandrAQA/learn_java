@@ -1,4 +1,4 @@
-package threads;
+package streams.threads;
 
 import java.io.FileReader;
 import java.io.FileWriter;

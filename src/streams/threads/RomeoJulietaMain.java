@@ -1,6 +1,5 @@
-package threads;
+package streams.threads;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class RomeoJulietaMain {

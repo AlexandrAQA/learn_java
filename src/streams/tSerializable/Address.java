@@ -1,4 +1,4 @@
-package tSerializable;
+package streams.tSerializable;
 
 import java.io.Serializable;
 

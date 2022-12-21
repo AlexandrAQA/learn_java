@@ -1,4 +1,4 @@
-package symbolStreams;
+package streams.symbolStreams;
 
 import java.io.*;
 
