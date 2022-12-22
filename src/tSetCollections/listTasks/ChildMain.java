@@ -32,5 +32,6 @@ public class ChildMain {
             }
         }
         System.out.println("Child's List with > 9 y.o: " + children);
+        System.out.println(children.contains(new Child("John", 11)));
     }
 }

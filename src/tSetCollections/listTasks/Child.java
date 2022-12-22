@@ -1,5 +1,7 @@
 package tSetCollections.listTasks;
 
+import java.util.Objects;
+
 public class Child {
 
     private String name;
@@ -18,6 +20,19 @@ public class Child {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Child child = (Child) o;
+        return name.equals(child.name) && age.equals(child.age);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 
     public String getName() {
